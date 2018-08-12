@@ -39,6 +39,7 @@ class TodoList extends Component {
       };
       todos.push(newTodo);
       this.setState({ todos: todos });
+      event.target.value=''
     }
   };
 
